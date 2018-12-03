@@ -8,7 +8,7 @@
 }
 
 .nav-item a {
-    color: #550000;
+    color: var(--dark-red);
     font-family: var(--font-two);
 }
 
