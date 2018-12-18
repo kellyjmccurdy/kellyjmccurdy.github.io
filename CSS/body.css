@@ -1,6 +1,3 @@
-body, html {
-    background: url("../assets/khachik-simonian-269941-unsplash.jpg") fixed no-repeat;
-    background-position: center center;
-    background-size: cover;
+body{ 
+    align-content: center;
 }
-

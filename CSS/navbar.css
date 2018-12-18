@@ -1,44 +1,28 @@
-/*#nav-content {
-    text-align: right;
-}*/
-
-.navbar-brand {
+.nav-link, .navbar-brand {
     color: #4D4D53;
-    font-family: var (--font-one);
+    cursor: pointer;
 }
 
-.nav-item a {
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background-color: rgba(244,232,217,0.4);
     color: #4D4D53;
-    font-family: var(--font-two);
-}
-
-.navbar {
-    overflow: hidden;
-    background: transparent;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.navbar a {
-    float: right;
-    display: block;
-    color: #4D4D53;
-    text-align: right;
-    padding: 14px 16px;
-}
-
-.navbar a:hover {
-    background-color: #B49047;
-    color: #C5D2DA;
   }
-  
+
+  .navbar-collapse{
+    justify-content: flex-end;
+   }
+
+   .navbar-toggler{ background: #C5D2DA !important;}
+
   /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #92B2C4;
-    color: 4D4D53;
+    color: #4D4D53;
   }
 
-  .main {
-      margin-top: 30px;
-  }
+
+

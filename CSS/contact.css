@@ -1,0 +1,18 @@
+.banner {
+    padding: 100px 0;
+    color: #4D4D53;
+    background: url(../assets/above-art-background-733852.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.content3 {
+    background-color: rgba(214,207,191, 0.6);
+    border-radius: .5em;
+    padding: 1em;
+    color: #785D44;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: left;
+}

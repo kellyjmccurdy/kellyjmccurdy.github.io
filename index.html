@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kelly McCurdy</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Sans+SC" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
 
@@ -14,31 +15,28 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-transparent">
-        <a class="navbar-brand" href="#"></a>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #D6CFBF">
+        <a class="navbar-brand" href="#description">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" data-value="about" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
+                        <a class="nav-link" data-value="contact" href="#contact">Contact</a>
+                    </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" data-value="portfolio" href="#portfolio">Portfolio</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
-                </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" data-value="skills" href="#">Skills</a>
+                </li> -->
+                <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Dropdown
@@ -49,7 +47,7 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
-                </li>
+                </li> -->
                 <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#">Disabled</a>
                 </li> -->
@@ -60,94 +58,155 @@
             </form>
         </div>
     </nav>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h1>This is working</h1>
+
 
     <!--Header-->
-    <div class="jumbotron banner ">
+    <header class="header">
+        <div class="overlay"></div>
+        <div class="container">
+        </div>
+
+        <div class="description" id="description">
+            <h1>Kelly McCurdy</h1>
+            <h3>
+                Junior .NET Developer
+            </h3>
+            <hr class="intro-divider">
+            <ul class="list-inline intro-social-buttons"></ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </header>
+
+    <!-- <div class="header">
         <h1 class="display-4">Hello World!</h1>
         <p class="lead">Hire Me!</p>
         <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more about me</a>
-    </div>
+    </div> -->
 
     <!--About Section-->
-    <section id="about">
-        <h1>About Me</h1>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </section>
+    <div class="about" id="about">
+        <style>
+            body {
+                background-color: #D6CFBF;
+            }
+            </style>
+        <h1></h1>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="assets/Profile_Pic2.jpg" alt="Profile Picture" class="image-fluid">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 desc">
+
+                <h3>About Me:</h3>
+                <br>
+                <p>
+                        Detailed, results-oriented, and technically skilled professional with the ability to use knowledge and interpersonal skills to achieve desired results. I am an extremely motivated team player with solid organizational and time management skills. I have over 15 years of experience in Human Resources. I have worked in a variety of industries, but mainly in the technology industry. 
+                        <br>
+                        <br>
+                        I have always been interested in learning new technology and skills. A couple of years ago I was exposed to coding. I became interested in learning more and started trying to teach myself code. Fast forward a couple of years and I heard about Eleven Fifty Academy. After taking an Intro to Coding class, I decided to take the leap and started working on a new career path. I am excited to see where this new path leads.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
 
     <!--Contact Section-->
     <section id="contact">
-            <h1>Contact Me</h1>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+        <br>
+        <br>
+        <div class="contact">
+                <style>
+                        body {
+                            background-color: #D6CFBF;
+                        }
+                        </style>
+            <section id="contact">
+                <div class="banner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 content3">
+                                <h2>Contact Me</h2>
+                                <h3>Please enter your information below.</h3>
+                                <form action="https://formspree.io/kelly.j.mccurdy@gmail.com" method="POST">
+                                    <input style="height:40px; font-size:13pt;" class="form-control" type="text" name="name"
+                                        size="50" placeholder="Your Name*">
+                                    <br>
+                                    <input style="height:40px; font-size:13pt;" class="form-control" type="email" name="replyto"
+                                        size="50" placeholder="YourEmail*">
+                                    <br>
+                                    <input style="height:40px;font-size:13pt;" class="form-control" type="text" name="message"
+                                        size="50" placeholder="Your Message*">
+                                    <br>
+                                    <input style="background-color: #a6a6a6;" class="btn btn-default btn-lg" type="submit"
+                                        value="Send">
+                                </form>
+                            </div>
+                            <div class="col-lg-6">
+                            </div>
+                            <br>
+                            <br>
+            </section>
 
-
-    <!--Projects Section-->
-    <section id="project">
-            <h1>My Portfolio</h1>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-
-    <!--Footer Section-->
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-
-    <script src="./js/main.js"></script>
+            <!--Projects Section-->
+            <div class="portfolio" id="portfolio">
+                    <h1 class="text-center">My Portfolio</h1>
+                <br>
+                <div class="container">
+                        <div class="row">
+                         <div class="col-lg-4 col-md-4 col-sm-12">
+                        <a href="https://skillsmatrixwebmvc.azurewebsites.net" target="_blank">
+                          <img src="./assets/skillsmatrixwebmvc.azurewebsites.net_.png" class="img-fluid">
+                        </a> 
+                        </div>
+                         <div class="col-lg-4 col-md-4 col-sm-12">
+                        <a href="https://kellyjmccurdy.github.io/Hair_-Design_StoreFront/"target="_blank">
+                          <img src="./assets/kellyjmccurdy.github.io_Hair_-Design_StoreFront_.png" class="img-fluid">
+                        </a> 
+                        </div>
+                         <div class="col-lg-4 col-md-4 col-sm-12">
+                        <a href="https://codepen.io/kellyjmccurdy/full/oaOOaV"target="_blank">
+                          <img src="./assets/Monster.JPG" class="img-fluid">
+                        </a>
+                         </div>
+                        </div>
+                       </div>
+                      </div>
+                      <br>
+                      <br>
+                      <br>
+            <!--Footer Section-->
+            <footer id="footer" class="footer tan-bg">
+                <div class="container text-center">
+                    <ul class="social mb-60 wow fadeInUp" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInUp;">
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/kellyjmccurdy/">
+                        <i class="fab fa-linkedin">
+                        </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.github.com/kellyjmccurdy">
+                        <i class="fab fa-github">
+                        </i>
+                        </a>
+                    </li>
+                    </ul>
+                    <p class="copyright">
+                        <a class="copy-link scroll-top" href>© Kelly McCurdy 2018. All Rights Reserved</a>
+                        <br>
+                    </p>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript" src='js/main.js'></script>
 </body>
 
 </html>

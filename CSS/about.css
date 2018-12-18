@@ -1,0 +1,31 @@
+.about{
+    padding: 1em;
+    position: relative;
+   }
+   .about h1{
+    color:#4D4D53;
+    text-align: center;
+    font-size: 50px;
+   }
+   .about img{
+    height: 90%;
+       width: 90%;
+       border-radius: 50%
+   }
+   .about span{
+    display: block;
+    color: #4D4D53;
+    position: absolute;
+    left: 115px;
+   }
+   .about .desc{
+    padding: 2em;
+    border-left:4px solid #92B2C4;
+   }
+   .about .desc h3{
+    color: #92B2C4;
+   }
+   .about .desc p{
+    line-height:2;
+    color:#4D4D53;
+   }
