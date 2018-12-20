@@ -136,23 +136,22 @@
                                 <h2>Contact Me</h2>
                                 <h3>Please enter your information below.</h3>
                                 <form action="https://formspree.io/kelly.j.mccurdy@gmail.com" method="POST">
-                                    <input style="height:40px; font-size:13pt;" class="form-control" type="text" name="name"
-                                        size="50" placeholder="Your Name*">
+                                    <input style="height:40px; font-size:13pt;" class="form-control" input type="text" name="name"
+                                        size="50" placeholder="Your Name*" required="" data-validation-required-message="Please enter your name">
                                     <br>
-                                    <input style="height:40px; font-size:13pt;" class="form-control" type="email" name="replyto"
-                                        size="50" placeholder="YourEmail*">
+                                    <input style="height:40px; font-size:13pt;" class="form-control" input type="email" name="_replyto"
+                                        size="50" placeholder="YourEmail*" required= "" data-validation-required-message="Please enter your email">
                                     <br>
-                                    <input style="height:40px;font-size:13pt;" class="form-control" type="text" name="message"
-                                        size="50" placeholder="Your Message*">
+                                    <input style="height:40px;font-size:13pt;" textarea class="form-control" rows="7" name="message"
+                                        size="50" placeholder="Your Message*" id="message" required="" data-validation-required-message="Please leave a message">
                                     <br>
                                     <input style="background-color: #a6a6a6;" class="btn btn-default btn-lg" type="submit"
                                         value="Send">
                                 </form>
                             </div>
-                            <div class="col-lg-6">
-                            </div>
-                            <br>
-                            <br>
+                        </div>
+                    </div>    
+                </div>
             </section>
 
             <!--Projects Section-->
