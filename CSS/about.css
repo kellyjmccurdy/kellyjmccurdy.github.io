@@ -2,11 +2,7 @@
     padding: 1em;
     position: relative;
    }
-   .about h1{
-    color:#4D4D53;
-    text-align: center;
-    font-size: 50px;
-   }
+   
    .about img{
     height: 90%;
        width: 90%;
@@ -22,10 +18,10 @@
     padding: 2em;
     border-left:4px solid #92B2C4;
    }
-   .about .desc h3{
+   .about h3{
     color: #92B2C4;
    }
-   .about .desc p{
+   .about p{
     line-height:2;
     color:#4D4D53;
    }

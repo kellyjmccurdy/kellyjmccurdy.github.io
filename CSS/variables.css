@@ -1,6 +1,9 @@
 :root {
-    --main-color: #AA3939;
-    --cream: #FFBEBE
-    --light-blue: #9AA8C8;
-    --dark-red: #550000;
+    --main-color: #D6CFBF;
+    --contact-color: #785D44;
+    --contact-background: rgba(214,207,191, 0.6);
+    --navbar-brand: #4D4D53;
+    --navbar-background: rgba(244,232,217,0.4);
+    --navbar_toggle: #C5D2DA;
+    --navbar-active: #92B2C4;
 }
