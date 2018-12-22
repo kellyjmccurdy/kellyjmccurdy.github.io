@@ -1,7 +1,21 @@
+/* .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+} */
+
 a {
     color: #785D44;
 }
 
 .page-footer {
-    background-color: #D6CFBF;
+    background-color: #FBF2EA;
+}
+
+.col-md-2 mb-2 .text-uppercase {
+    font-weight: bold;
+
+}
+
+.hr {
+    background-color: rgba(77,77,83);
 }
