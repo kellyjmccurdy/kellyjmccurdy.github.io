@@ -1,7 +1,6 @@
-/* .footer {
-    padding-top: 50px;
-    padding-bottom: 50px;
-} */
+.footer {
+    background-image: linear-gradient(#F5F0B3, #A89892);
+}
 
 a {
     color: #785D44;
@@ -13,9 +12,13 @@ a {
 
 .col-md-2 mb-2 .text-uppercase {
     font-weight: bold;
-
 }
 
 .hr {
     background-color: rgba(77,77,83);
+}
+
+.copyright {
+    justify-content: left;
+    text-align: center;
 }
