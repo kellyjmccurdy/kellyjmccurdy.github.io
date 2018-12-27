@@ -1,5 +1,5 @@
 .footer {
-    background-image: linear-gradient(#F5F0B3, #A89892);
+    background-image: linear-gradient(#C2CEDD, #A89892);
 }
 
 a {
@@ -16,6 +16,8 @@ a {
 
 .hr {
     background-color: rgba(77,77,83);
+    width: 100%;
+    size: 5;
 }
 
 .copyright {
