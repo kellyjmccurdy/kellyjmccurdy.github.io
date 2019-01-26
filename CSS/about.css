@@ -4,21 +4,21 @@
     background-color: #D6CFBF
    }
    
-   .about img{
+.about img{
     height: 90%;
-       width: 90%;
-       border-radius: 50%
+    width: 90%;
+    border-radius: 50%
    }
-   .about span{
+.about span{
     display: block;
     color: #4D4D53;
     position: absolute;
     left: 115px;
    }
-   .about h3{
+.about h3{
     color: #92B2C4;
    }
-   .about p{
+O.about p{
     line-height:2;
     color:#4D4D53;
    }
