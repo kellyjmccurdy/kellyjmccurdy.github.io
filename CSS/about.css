@@ -15,10 +15,16 @@
     position: absolute;
     left: 115px;
    }
+
+.about .desc{
+    padding: 2em;
+    border-left: 4px solid #92B2C4;
+}
+
 .about h3{
     color: #92B2C4;
    }
-O.about p{
+.about p{
     line-height:2;
     color:#4D4D53;
    }

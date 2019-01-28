@@ -1,26 +1,19 @@
-.footer {
-    background-image: linear-gradient(#C2CEDD, #A89892);
-}
-
 a {
     color: #785D44;
 }
 
 .page-footer {
-    background-color: #FBF2EA;
+    background-color: #785D44;
 }
 
 .col-md-2 mb-2 .text-uppercase {
     font-weight: bold;
 }
 
-.hr {
-    background-color: rgba(77,77,83);
-    width: 100%;
-    size: 5;
+.col-md-2 a{
+    color: #D6CFBF;
 }
 
-.copyright {
-    justify-content: center;
-    text-align: center;
+.footer-copyright a{
+    color: #D6CFBF;
 }
