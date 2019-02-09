@@ -17,3 +17,11 @@ a {
 .footer-copyright a{
     color: #D6CFBF;
 }
+
+hr {
+    border: 1px solid #D6CFBF;
+}
+
+.footer-row {
+    padding-top: 1em;
+}

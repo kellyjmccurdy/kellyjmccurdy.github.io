@@ -7,7 +7,7 @@
 .about img{
     height: 90%;
     width: 90%;
-    border-radius: 50%
+    border-radius: 50%;
    }
 .about span{
     display: block;
@@ -22,9 +22,38 @@
 }
 
 .about h3{
-    color: #92B2C4;
+    color: #785D44;
+    font-size: 50px;
    }
 .about p{
     line-height:2;
     color:#4D4D53;
    }
+
+.about a:link {
+    color: #1A5985;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about a:visited {
+    color: #785D44;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about a:hover {
+    color: #92B2C4;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.col-lg-8 img {
+    height: 5em;
+    width: auto;
+}
+
+.col-lg-4 {
+    padding-top: 2em;
+}
