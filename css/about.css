@@ -49,11 +49,7 @@
     text-decoration: underline;
 }
 
-.col-lg-8 img {
-    height: 5em;
+.col-lg-8 p img {
+    height: 6em;
     width: auto;
-}
-
-.col-lg-4 {
-    padding-top: 2em;
 }

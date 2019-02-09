@@ -1,12 +1,10 @@
-.custom-banner-image {
-    padding: 2em;
-    padding-bottom: 8em;
+.skills {
     padding-top: 2em;
     position: relative;
     background-color: #D6CFBF;
-    background: url(../assets/ballpen-business-cell-phone-1500.jpg) no-repeat center center;
+    background: url(../assets/ballpen-business-cell-phone-opacity.png) no-repeat center center;
     background-size: cover;
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
 
 .h1-row h1 {
